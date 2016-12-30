@@ -1,0 +1,27 @@
+@charset "UTF-8";
+body { font-size: 14px; line-height: 2; font-family: "Microsoft Yahei",Arial,Helvetica,sans-serif,"宋体"; -webkit-text-size-adjust: none; }
+
+a { text-decoration: none; }
+
+ul, li, p, h1, h2, h3, h4, h5, dl, dt, dd, body { padding: 0; margin: 0; }
+
+ul, li { list-style: none; }
+
+img { border: 0; }
+
+input { margin: 0; padding: 0; border-radius: 0; border: 0; }
+
+body { background-color: #f00; }
+
+.game { max-width: 600px; transform: translateZ(0); -webkit-transform: translateZ(0); -ms-transform: translateZ(0); margin: 100px auto 0; color: #fff; font-size: 12px; text-align: center; }
+.game img { display: block; width: 100%; filter: alpha(opacity=80); opacity: 0.8; -moz-opacity: 0.8; }
+
+.desc { text-align: center; }
+.desc i { color: #fff; font-style: normal; }
+
+.btn { text-align: center; margin-top: 10px; }
+.btn a { display: inline-block; padding: 0 10px; background-color: #fff; color: #000; cursor: pointer; }
+
+.cur { filter: alpha(opacity=30); opacity: 0.3; -moz-opacity: 0.3; }
+
+@media \0screen\,screen\9 { body { min-width: 1120px; } }
